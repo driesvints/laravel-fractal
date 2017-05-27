@@ -48,5 +48,11 @@
     },
     "config": {
         "sort-packages": true
+    },
+    "extra": {
+        "facades": {
+            "Fractal": "Spatie\\Fractal\\FractalFacade"
+        },
+        "providers": "Spatie\\Fractal\\FractalServiceProvider"
     }
 }
